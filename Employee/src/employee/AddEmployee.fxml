@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #B6191A;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employee.AddEmployeeController">
+   <children>
+      <Label layoutX="134.0" layoutY="38.0" text="Add New Employee" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="salariedEmployee" layoutX="50.0" layoutY="157.0" mnemonicParsing="false" onAction="#goToSalaried" prefHeight="60.0" prefWidth="215.0" style="-fx-background-color: #C64C4D;" text="Salarired Employee" textFill="#f8f6f6">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="hourlyEmployee" layoutX="315.0" layoutY="157.0" mnemonicParsing="false" onAction="#goToHourlyEmployee" prefHeight="60.0" prefWidth="215.0" style="-fx-background-color: #C64C4D;" text="Hourly Employee" textFill="#f5f0f0">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="commissionEmployee" layoutX="164.0" layoutY="248.0" mnemonicParsing="false" onAction="#goToCommission" prefHeight="60.0" prefWidth="255.0" style="-fx-background-color: #C64C4D;" text="Commissioned Employee" textFill="#f5efef">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="home" layoutX="510.0" layoutY="14.0" mnemonicParsing="false" onAction="#goToHome" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: #C64C4D;" text="Home" textFill="#e1dbdb">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
